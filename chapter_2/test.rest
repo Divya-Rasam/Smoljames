@@ -1,0 +1,40 @@
+# This file is used in VS Code REST Client extension or similar tools.
+# It allows you to test your API endpoints quickly.
+
+# Examples:
+# GET http://localhost:1234/api/data → fetch current data.
+# POST http://localhost:1234/api/data with body → add new user.
+# DELETE http://localhost:1234/api/data → delete last user.
+
+
+
+### TEST GET / WEBSITE
+
+GET http://localhost:1234
+
+
+
+### TEST GET / dashboard WEBSITE
+
+GET http://localhost:1234/dashboard
+
+
+### DATA ENDPOINT
+
+GET http://localhost:1234/api/data
+
+
+### DATA ENDPOINT FOR ADDING A USER
+
+POST http://localhost:1234/api/data
+Content-Type: application/json
+
+{
+    "name": "zoro"
+}
+
+
+
+### DELETE END OINT
+
+DELETE http://localhost:1234/api/data
