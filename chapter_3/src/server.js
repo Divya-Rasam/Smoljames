@@ -1,4 +1,4 @@
-// const express = require('express')
+// const express = require('express')                        not used now, was used before
 import express from 'express'
 import path, {dirname} from 'path'
 import { fileURLToPath } from 'url'
